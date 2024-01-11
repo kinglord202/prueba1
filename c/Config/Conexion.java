@@ -18,8 +18,6 @@ public class Conexion {
             con = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
         } catch (ClassNotFoundException | SQLException e) {
             System.out.println("Config.Conexion.getConnection()" + e);
-            
-            
         }
         return con;
     }
