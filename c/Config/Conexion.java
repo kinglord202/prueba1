@@ -19,7 +19,7 @@ public class Conexion {
         } catch (ClassNotFoundException | SQLException e) {
             System.out.println("Config.Conexion.getConnection()" + e);
             
-            System.err.println("Nuevo codigo");
+            
         }
         return con;
     }
